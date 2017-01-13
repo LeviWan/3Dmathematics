@@ -1,0 +1,49 @@
+﻿生成启动时间为 2016/11/21 20:40:14。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Demo\Demo\Demo.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AABB3.cpp EulerAngles.cpp main.cpp MathUtil.cpp Matrix4x3.cpp Quaternion.cpp RotationMatrix.cpp
+         RotationMatrix.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\rotationmatrix.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\rotationmatrix.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(8): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(9): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+         Quaternion.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(8): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(9): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\rotationmatrix.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\quaternion.cpp(326): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         Matrix4x3.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\matrix4x3.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\matrix4x3.cpp(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\matrix4x3.cpp(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(8): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(9): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\matrix4x3.cpp(190): warning C4172: 返回局部变量或临时变量的地址
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\matrix4x3.cpp(200): warning C4172: 返回局部变量或临时变量的地址
+         MathUtil.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(8): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(9): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+         main.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(8): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(9): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\rotationmatrix.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         EulerAngles.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\rotationmatrix.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(8): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2013\projects\demo\demo\mathutil.h(9): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+         AABB3.cpp
+         正在生成代码...
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Demo\Debug\Demo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Demo\Debug\Demo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Demo\Debug\Demo.lib" /MACHINE:X86 Debug\AABB3.obj
+         Debug\EulerAngles.obj
+         Debug\main.obj
+         Debug\MathUtil.obj
+         Debug\Matrix4x3.obj
+         Debug\Quaternion.obj
+         Debug\RotationMatrix.obj
+         Demo.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Demo\Debug\Demo.exe
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Demo\Demo\Demo.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.57
